@@ -1,10 +1,11 @@
 package com.chornyiya.myrobot;
 
-import com.chornyiya.myrobot.Limbs.Legs;
 
 public class Main {
     public static void main(String[] args) {
-            Legs legs = new Legs();
-        System.out.println(legs.getName());
+        Robot robot = new Robot();
+        robot.about();
+        System.out.println("Рекурсивное деление:");
+        robot.dividingTheTotalWeight(robot.getTotalWeight());
     }
 }

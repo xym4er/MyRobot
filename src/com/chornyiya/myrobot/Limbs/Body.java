@@ -1,8 +1,11 @@
 package com.chornyiya.myrobot.Limbs;
 
+import com.chornyiya.myrobot.Materials.Material;
+
 public class Body extends Limb {
-    public Body(){
-        name = "Туловище";
+    public Body(Material material) {
+        super(material);
+        name = "РўСѓР»РѕРІРёС‰Рµ";
     }
 
     @Override

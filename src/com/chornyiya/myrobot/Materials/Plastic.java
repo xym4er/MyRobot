@@ -1,12 +1,12 @@
 package com.chornyiya.myrobot.Materials;
 
 public class Plastic extends Material {
-    protected final String name = "Пластик";
+    protected final String name = "РџР»Р°СЃС‚РёРє";
 
 
     @Override
     protected void setWeight() {
-        weight = (int)(Math.random()*10+1);
+        weight = (int) (Math.random() * 10 + 1);
     }
 
     @Override

@@ -3,7 +3,7 @@ package com.chornyiya.myrobot.Materials;
 public abstract class Material {
     protected int weight;
 
-    Material(){
+    Material() {
         setWeight();
     }
 

@@ -1,12 +1,12 @@
 package com.chornyiya.myrobot.Materials;
 
 public class CastIron extends Material {
-    protected final String name = "Чугун";
+    protected final String name = "Р§СѓРіСѓРЅ";
 
 
     @Override
     protected void setWeight() {
-        weight = (int)(Math.random()*10+21);
+        weight = (int) (Math.random() * 10 + 21);
     }
 
     @Override

@@ -1,11 +1,11 @@
 package com.chornyiya.myrobot.Materials;
 
 public class Steel extends Material {
-    protected final String name = "Сталь";
+    protected final String name = "РЎС‚Р°Р»СЊ";
 
     @Override
     protected void setWeight() {
-        weight = (int)(Math.random()*10+11);
+        weight = (int) (Math.random() * 10 + 11);
     }
 
     @Override
